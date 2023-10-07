@@ -1,7 +1,7 @@
 package org.bus.controller;
 
-import org.bus.dto.BusPosition;
-import org.bus.dto.BusStop;
+import org.bus.dto.BusPositionDto;
+import org.bus.dto.BusStopDto;
 import org.bus.service.BusStopService;
 import org.bus.service.BusTimmingService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,14 +32,14 @@ public class BusTimingController {
 
     // TODO
     @GetMapping("/bus-stops")
-    public List<BusStop> getBusStops() {
+    public List<BusStopDto> getBusStops() {
         // Implement logic to get and return bus stops
         return new ArrayList<>();
     }
 
     // TODO
     @GetMapping("/running-buses/{busLineId}")
-    public List<BusPosition> getRunningBuses(@PathVariable String busLineId) {
+    public List<BusPositionDto> getRunningBuses(@PathVariable String busLineId) {
         // Implement logic to get and return running buses for a specific bus line
         return new ArrayList<>();
     }

@@ -3,7 +3,7 @@ package org.bus.dto;
 import lombok.Data;
 
 @Data
-public class BusPosition {
+public class BusPositionDto {
     private double bearing;
     private String crowdLevel;
     private double lat;

@@ -3,7 +3,7 @@ package org.bus.dto;
 import lombok.Data;
 
 @Data
-public class BusStop {
+public class BusStopDto {
     private String id;
     private double lat;
     private double lng;

@@ -5,11 +5,11 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class BusLine {
+public class BusLineDto {
     private String id;
     private String fullName;
     private String origin;
     private String shortName;
-    private List<BusStop> busStops;
+    private List<BusStopDto> busStopDtos;
     private List<Double[]> path;
 }
